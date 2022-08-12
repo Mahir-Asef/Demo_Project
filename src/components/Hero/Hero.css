@@ -57,10 +57,10 @@
         margin-top: 10px;
     }
     .traveler {
-        width: 300px;
+        width: 100%;
         height: auto;
-    margin-bottom: 350px;
-    /* margin-right: 100px; */
+        margin-bottom: 350px;
+        margin-right: 0;
     }
     .sign {
         margin-bottom: 50px;

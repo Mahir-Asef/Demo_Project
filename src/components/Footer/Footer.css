@@ -20,11 +20,10 @@
     position: absolute;
     left: 10px;
     bottom: 0;
-
 }
 .inputField{
     bottom: 20px;
-    right: 200px;
+    right: calc(50% - 337px);
     position: absolute;
     z-index: 4;
     border: none;
@@ -49,6 +48,10 @@
     border: none;
     border-radius: 10px;
     
+}
+input:focus-visible {
+    border: none !important;
+    outline: none;
 }
 ::-webkit-input-placeholder{
     padding-left: 40px;
@@ -101,16 +104,26 @@
     justify-content: space-between;
 }
 @media only screen and (max-width:480px){
+    .footer-bg {
+        max-width: 100%;
+    }
+    .subsc {
+        position: absolute;
+        left: 10px;
+        bottom: 0;
+        width: 100%;
+    
+    }
     .inputField {
     bottom: 20px;
-    right: 50px;
+    right: calc(50% - 150px);
     position: absolute;
     z-index: 4;
     border: none;
     border-radius: 10px;
     }
     .input {
-        width: 360px;
+        width:300px;
         margin: auto;
     }
     .section-f {
@@ -118,7 +131,7 @@
    
     }
     .section-g {
-        width: 100%;
+        margin: auto;
        
     }
     .section-h{

@@ -30,15 +30,16 @@
     background: #FFFFFF;
     box-shadow: 14px 24px 72px rgba(102, 102, 102, 0.1);
     border-radius: 8px;
-    
+    padding: 40px;
 }
 @media only screen and (max-width:480px){
-    .sub {
+    .Sub {
         display: block;
-        justify-content:center;
-        margin:0 10px;
+        padding: 10px;
+
     }
     .sub-h {
+        width: 100%;
         margin: 0 auto;
     }
     .allGroup{

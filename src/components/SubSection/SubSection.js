@@ -19,28 +19,28 @@ const SubSection = () => {
            <div className="allGroup">
                 <div className="Group">
                     <div>
-                        <img style={{marginTop:"60px",marginLeft:"30px"}} src={group1} alt="" srcset="" />
+                        <img src={group1} alt="" srcset="" />
                     </div>
-                    <div style={{marginTop:"40px",marginLeft:"30px"}}>
-                        <h1>Sign Up</h1>
+                    <div>
+                        <h1 style={{padding:"20px 0"}}>Sign Up</h1>
                         <p style={{color:"#666666", marginTop:"10px"}}>Completes all the work associated <br /> with planning and processing</p>
                     </div>
                 </div>
                 <div className="Group">
                     <div>
-                        <img style={{marginTop:"60px",marginLeft:"30px"}} src={group2} alt="" srcset="" />
+                        <img src={group2} alt="" srcset="" />
                     </div>
-                    <div style={{marginTop:"40px",marginLeft:"30px"}}>
-                        <h1>Worth of Money</h1>
+                    <div>
+                        <h1 style={{padding:"20px 0"}}>Worth of Money</h1>
                         <p style={{color:"#666666", marginTop:"10px"}}>After successful access then book<br /> from exclusive deals & pricing </p>
                     </div>
                 </div>
                 <div className="Group">
                     <div>
-                        <img style={{marginTop:"60px",marginLeft:"30px"}} src={group3} alt="" srcset="" />
+                        <img src={group3} alt="" srcset="" />
                     </div>
-                    <div style={{marginTop:"40px",marginLeft:"30px"}}>
-                        <h1>Exciting Travel</h1>
+                    <div>
+                        <h1 style={{padding:"20px 0"}}>Exciting Travel</h1>
                         <p style={{color:"#666666", marginTop:"10px"}}>Start and explore a wide range of <br /> exciting travel experience.</p>
                     </div>
                 </div>

@@ -6,7 +6,7 @@
     margin-top: 100px;
 }
 .slick-prev:before, .slick-next:before {
-    background-color: red;
+    color: #FA7436 !important;
 }
 
 /* banner padding */
@@ -63,5 +63,8 @@
 @media only screen and (max-width:480px){
     .main-card {
         width: auto;
+    }
+    .slick-prev:before, .slick-next:before {
+        display: none;
     }
 }
